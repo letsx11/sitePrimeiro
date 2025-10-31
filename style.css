@@ -1,0 +1,92 @@
+html{
+  background-color: rgb(32, 19, 14);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.capa{
+    color: antiquewhite;
+    width: 50%;
+
+} 
+
+
+#outracapa{
+    color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+body img{
+    max-width: 300px;
+    height: auto;
+
+}
+
+#topicos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    gap: 30px;
+    color:antiquewhite;
+}
+
+.Botao {
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.Botao:hover {
+    background-color: antiquewhite;
+    color:  rgb(32, 19, 14);
+}
+
+#fotoPerfil{
+    border-radius: 40%;
+}
+
+#qmsou{
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+#qmsou:hover{
+    color: #D18F8F;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+footer a {
+    color:antiquewhite;
+    text-decoration: none;
+    font-size: medium;
+}
+
+footer a:hover{
+    color: #D18F8F;
+}
